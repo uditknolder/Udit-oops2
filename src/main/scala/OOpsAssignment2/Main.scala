@@ -1,7 +1,9 @@
 package OOpsAssignment2
-
 object Main {
 
+  /**
+   * @param args
+   */
   def main(args: Array[String]): Unit =
   {
 
@@ -9,9 +11,9 @@ object Main {
     val Person2=new Person(25,"test")
 
 
-    if ((Person1.Name).equals(Person1.Name))
+    if ((Person1.name).equals(Person1.name))
       {
-        if((Person1.Age)equals(Person2.Age))
+        if((Person1.age)equals(Person2.age))
           {
             println("true")
           }
@@ -21,7 +23,7 @@ object Main {
           }
 
       }
-    else if ((Person2.Name.length()) equals (Person1.Name.length()))
+    else if ((Person2.name.length()) equals (Person1.name.length()))
     {
       println("false")
     }
