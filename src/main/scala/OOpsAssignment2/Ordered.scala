@@ -1,10 +1,8 @@
 package OOpsAssignment2
 
-trait Ordered {
-
+case class Person(age:Int,name :String) extends Ordered {
   /**
    *
    */
-  def person(): Unit
-
+  override def person(): Unit = ???
 }
